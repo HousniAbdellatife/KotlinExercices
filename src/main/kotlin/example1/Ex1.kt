@@ -1,5 +1,11 @@
 package example1
 
-fun main() {
 
+/**
+ * Simple function
+ */
+fun main() {
+    println(start())
 }
+
+fun start(): String = "OK"
